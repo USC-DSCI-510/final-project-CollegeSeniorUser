@@ -3,17 +3,49 @@
 # DSCI 510 Final Project
 
 ## Name of the Project
-
+* NBA Player Salary Prediction Using Deep Learning
 ## Team Members (Name and Student IDs)
-
-## Instructions to create a conda enviornment
-
+* Chuanzhou Zhang: 8165737934
+* Kenneth Chan: 
+## Instructions to create a conda environment
+* One of the packages requires Python 3.10 for stable execution
+* Demo to create conda environment (copy below code to terminal):
+  - conda create -n autogluon python=3.10
+  - conda activate autogluon
 ## Instructions on how to install the required libraries
+<p>Please run all terminal commend line stated in the () </p>
+<p>If there is trouble installing <b>AutoGluon</b>, please have all dependency installed
+and contact author or refer to its website listed below</p>
 
+1. selenium (1st line)
+   - pip install selenium
+   - https://pypi.org/project/selenium/
+3. requests (1st line)
+   - pip install requests
+   - https://pypi.org/project/requests/
+5. beautifulsoup (1st line)
+   - pip install beautifulsoup4
+   - https://pypi.org/project/beautifulsoup4/
+7. pandas (1st line)
+   - pip install pandas
+   - https://pypi.org/project/pandas/
+8. Scikit-learn (1st line)
+   - pip install scikit-learn
+   - https://pypi.org/project/scikit-learn/ 
+9. Tqdm (1st line)
+   - conda install -c conda-forge tqdm
+   - https://pypi.org/project/tqdm/ 
+10. autogluon (First 2 lines) (MacOS)
+    - conda install -c conda-forge mamba
+    - mamba install -c conda-forge autogluon
+    - For problem please refer to the website below
+    - https://auto.gluon.ai/stable/install.html
+    - Note: Please create a environment with python 3.10 for most stable run
+    
 ## Instructions on how to download the data
 
 ## Instructions on how to clean the data
 
-## Instrucions on how to run analysis code
+## Instructions on how to run analysis code
 
 ## Instructions on how to create visualizations
