@@ -49,7 +49,8 @@ and contact author or refer to its website listed below</p>
    - https://seaborn.pydata.org/installing.html
 
 ## Instructions on how to download the data
-<p>For</>
+<p>For</p>
+
 ## Instructions on how to clean the data
 
 ## Instructions on how to run analysis code
