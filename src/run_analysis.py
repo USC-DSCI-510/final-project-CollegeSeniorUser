@@ -14,7 +14,7 @@ from tqdm import tqdm
 from autogluon.tabular import TabularDataset, TabularPredictor
 
 # Load combined 5 seasons records, salary is adjusted for inflation
-data = TabularDataset('meta_data')
+data = TabularDataset('data/processed/meta_data')
 # Drop unnecessary column and prepare for training
 data = data.drop(columns=['Player']).drop(
     columns=['first_name']).drop(columns=['last_name'])
@@ -32,7 +32,7 @@ label = 'salary'
 
 # Before training, please change path to your
 # desired directory. (stores trained model)
-save_path = '/Users/main/Desktop/dsci510/project'
+save_path = 'data/processed'
 
 # Please check and adjust model parameters to fit your need.
 # Higher accuracy requires longer time and higher computing power

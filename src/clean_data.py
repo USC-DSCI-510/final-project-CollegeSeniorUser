@@ -11,8 +11,8 @@ def dfmerger(start):
     end = str(start + 1)
     start = str(start)
     # set path name
-    salary_path = "salary_" + start + "_" + end
-    stats_path = "stats_" + start + "_" + end
+    salary_path = "data/raw/salary_" + start + "_" + end + ".csv"
+    stats_path = "data/raw/stats_" + start + "_" + end + ".csv"
     # read two datasets and exclude index from csv
     df_salary = pd.read_csv(salary_path, index_col='Unnamed: 0')
     df_stats = pd.read_csv(stats_path, index_col='Unnamed: 0')

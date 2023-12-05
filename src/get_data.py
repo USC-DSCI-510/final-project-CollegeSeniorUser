@@ -55,7 +55,7 @@ def step1(num):
     df = pd.DataFrame(player_stat)
     df.columns = header
     # export file to stats_start_end
-    file = f"stats_{num}_{end}"
+    file = f"stats_{num}_{end}.csv"
     df.to_csv(file)
 
 
@@ -77,7 +77,7 @@ def step2():
                for i in range(10, length, 8)]
     df_dict = {'player_names': player_names, '2023/24': column1, }
     df_salary23 = pd.DataFrame(df_dict)
-    df_salary23.to_csv("salary_2023_2024")
+    df_salary23.to_csv("salary_2023_2024.csv")
     # export season 23/24
 
 
@@ -104,7 +104,7 @@ def step3(num):
     df2 = pd.DataFrame(player_salary)
     df2.columns = index
     # export to csv as salary_num_end
-    file = f"salary_{num}_{end}"
+    file = f"salary_{num}_{end}.csv"
     df2.to_csv(file)
 
 

@@ -4,12 +4,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataframes
-df_2019 = pd.read_csv('merged2019_2020.csv')
-df_2020 = pd.read_csv('merged2020_2021.csv')
-df_2021 = pd.read_csv('merged2021_2022.csv')
-df_2022 = pd.read_csv('merged2022_2023.csv')
-df_2023 = pd.read_csv('merged2023_2024.csv')
-df_all = pd.read_csv('meta_data')
+df_2019 = pd.read_csv('data/processed/merged2019_2020.csv')
+df_2020 = pd.read_csv('data/processed/merged2020_2021.csv')
+df_2021 = pd.read_csv('data/processed/merged2021_2022.csv')
+df_2022 = pd.read_csv('data/processed/merged2022_2023.csv')
+df_2023 = pd.read_csv('data/processed/merged2023_2024.csv')
+df_all = pd.read_csv('data/processed/meta_data')
 
 # Select columns of interest
 selected_columns = ['salary', 'Age', 'GP', 'Min', 'PTS', 'FGM',
