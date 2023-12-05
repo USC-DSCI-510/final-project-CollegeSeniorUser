@@ -106,7 +106,7 @@ and contact author or refer to its website listed below</p>
 
 ## Note: 
 <p>
-  For run_analysis and visualizations, We recommend using jupyter notebook for this part, but .py format is also provided. All jupyterNotebook files are within <b style="font-size: 12px;"}>src/utils/</b>
+  For run_analysis and visualizations, We recommend using jupyter notebook for this part, but .py format is also provided. All jupyterNotebook files are within <b>src/utils/</b>
 </p>
 
 *  If any problem or specfiation needed, please don't hesitate and contact me
