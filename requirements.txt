@@ -1,0 +1,12 @@
+﻿conda create -n autogluon python=3.10
+conda activate autogluon 
+pip install selenium
+pip install requests
+pip install beautifulsoup4
+pip install pandas
+pip install scikit-learn
+conda install -c conda-forge tqdm
+conda install -c conda-forge mamba
+mamba install -c conda-forge autogluon
+pip install lxml
+pip install seaborn
