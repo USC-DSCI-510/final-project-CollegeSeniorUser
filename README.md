@@ -6,7 +6,7 @@
 * NBA Player Salary Prediction Using Deep Learning
 ## Team Members (Name and Student IDs)
 * Chuanzhou Zhang: 8165737934
-* Kenneth Chan: 
+* Kenneth Chan: 5772665598
 ## Instructions to create a conda environment
 * One of the packages requires Python 3.10 for stable execution
 * Demo to create conda environment (copy below code to terminal):
