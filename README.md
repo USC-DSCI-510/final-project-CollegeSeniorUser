@@ -40,7 +40,7 @@ and contact author or refer to its website listed below</p>
    - mamba install -c conda-forge autogluon
    - For problem please refer to the website below
    - https://auto.gluon.ai/stable/install.html
-   - Note: Please create a environment with python 3.10 for most stable run
+   - Note: Please create an environment with Python 3.10 for the most stable run
 8. lxml
    -  pip install lxml
    -  https://pypi.org/project/lxml/
@@ -48,11 +48,63 @@ and contact author or refer to its website listed below</p>
    - pip install seaborn
    - https://seaborn.pydata.org/installing.html
 
-## Instructions on how to download the data
-<p>For</p>
+## Instructions on how to download the data (get_data.py)
+<p> The get_data.py program uses the <b>Selenium</b> module to simulate user actions such 
+  as tapping and changing the page. Once starts running, the program will 
+  initiate the driver to open the Chrome browser. Running time varies during testing. 
+  Once the page opens please <b>close</b> any <b>advertisement</b> or "<b>accept cookies</b>" pop-ups. 
+</p>
 
+<p>
+  There were times we had trouble initiating Chrome driver. Please run once again to solve the problem. 
+</p>
+
+* Output data: all scraped raw data will be stored to raw data
+  - stats_2019_2020  
+  - stats_2020_2021  
+  - stats_2021_2022  
+  - stats_2022_2023  
+  - stats_2023_2024
+  - salary_2019_2020  
+  - salary_2020_2021  
+  - salary_2021_2022  
+  - salary_2022_2023  
+  - salary_2023_2024  
+* Please have all raw and processed data download to one single folder along with source code
+  
 ## Instructions on how to clean the data
+* run clean_data.py to get processed data
+* merged dataset contains processed data for first five seasons
+* meta_data contains all processed data for all five seasons
+  - merged2019_2020.csv
+  - merged2020_2021.csv
+  - merged2021_2022.csv
+  - merged2022_2023.csv
+  - merged2023_2024.csv
+  - meta_data
 
 ## Instructions on how to run analysis code
+<p>
+  <b>run_analysis.py</b>: excuate this program for training ml model and get analysis data</l>
+</p>
+<p>
+  By default, training time is limited to 1 minuate for demo. For better result, please follow comments within to
+  increase training time. We recommend using jupyter notebook for this part but .py format is also provided
+</p>
 
+* we also have uploaded it in jupyternote book format. Please follow instructions within to run the program
+* original_prediction: two columns, 1st column actual salary data, 2nd column predicted salary
+* We included above demo data in processed_data folder for anyone interested to see the comparison
+  
 ## Instructions on how to create visualizations
+<p>
+  Run <b>visualize_results.py</b> to get vsualizations included in the <b>final_report.pdf<b>
+</p> 
+
+## Note: 
+<p>
+  For run_analysis and visualizations, We recommend using jupyter notebook for this part but .py format is also provided. 
+</p>
+
+*  If any problem or specfiation needed, please don't hesitate and contact me
+
