@@ -59,7 +59,7 @@ and contact author or refer to its website listed below</p>
   There were times we had trouble initiating Chrome driver. Please run once again to solve the problem. 
 </p>
 
-* Output data: all scraped raw data will be stored to raw data
+* Output data: all scraped raw data will be stored in raw data
   - stats_2019_2020  
   - stats_2020_2021  
   - stats_2021_2022  
@@ -70,7 +70,7 @@ and contact author or refer to its website listed below</p>
   - salary_2021_2022  
   - salary_2022_2023  
   - salary_2023_2024  
-* Please have all raw and processed data downloaded to one single folder along with the source code
+* The file paths in the py file assume that the data is either in the processed or raw folders in the data folder. If the data is located elsewhere, please modify the path to suit the location of the data.
   
 ## Instructions on how to clean the data
 * run clean_data.py to get processed data
