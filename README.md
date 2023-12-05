@@ -70,32 +70,35 @@ and contact author or refer to its website listed below</p>
   - salary_2021_2022  
   - salary_2022_2023  
   - salary_2023_2024  
-* Please have all raw and processed data download to one single folder along with source code
+* Please have all raw and processed data downloaded to one single folder along with the source code
   
 ## Instructions on how to clean the data
 * run clean_data.py to get processed data
-* merged dataset contains processed data for first five seasons
-* meta_data contains all processed data for all five seasons
-  - merged2019_2020.csv
-  - merged2020_2021.csv
-  - merged2021_2022.csv
-  - merged2022_2023.csv
-  - merged2023_2024.csv
-  - meta_data
+* Output: 
+  - merged dataset contains processed data for the first five seasons
+    - merged2019_2020.csv
+    - merged2020_2021.csv
+    - merged2021_2022.csv
+    - merged2022_2023.csv
+    - merged2023_2024.csv
+  - meta_data contains all processed data for all five seasons
+    - meta_data
 
 ## Instructions on how to run analysis code
 <p>
-  <b>run_analysis.py</b>: excuate this program for training ml model and get analysis data</l>
+  <b>run_analysis.py</b>: execute this program for training ml model and get analysis data</l>
 </p>
 <p>
-  By default, training time is limited to 1 minuate for demo. For better result, please follow comments within to
+  By default, training time is limited to 1 minute for the demo. For better results, please follow the comments within to
   increase training time. We recommend using jupyter notebook for this part but .py format is also provided
 </p>
 
-* we also have uploaded it in jupyternote book format. Please follow instructions within to run the program
-* original_prediction: two columns, 1st column actual salary data, 2nd column predicted salary
-* We included above demo data in processed_data folder for anyone interested to see the comparison
-  
+* We also have uploaded it in jupyternote book format. Please follow the instructions within to run the program
+* We included the above demo data in the processed_data folder for anyone interested to see the comparison
+* Output:
+  - original_prediction: two columns, 1st column actual salary data, 2nd column predicted salary
+  - model: folder includes all trained models
+    
 ## Instructions on how to create visualizations
 <p>
   Run <b>visualize_results.py</b> to get vsualizations included in the <b>final_report.pdf<b>
